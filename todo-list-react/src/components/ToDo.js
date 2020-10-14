@@ -5,6 +5,7 @@ import Task from './Task/Task';
 import Confirm from './Confirm';
 import Modal from './Modal';
 
+
 class ToDo extends Component {
     state = {
         tasks: [],
@@ -107,7 +108,7 @@ class ToDo extends Component {
         const checkedTasks = new Set(this.state.checkedTasks);
         
         fetch('http://localhost:3001/task', {
-            method: 'DELETE',
+            method: 'PATCH',
             body: JSON.stringify({
                 tasks: [...checkedTasks]
             }),

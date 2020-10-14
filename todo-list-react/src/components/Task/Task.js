@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
-import styles from './task.module.css';
+import styles from './task.module.scss';
 
 class Task extends PureComponent {
     state = {

@@ -1,7 +1,6 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import A from './demo/A';
 import Todo from './components/ToDo';
 
 
